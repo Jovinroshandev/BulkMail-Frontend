@@ -51,7 +51,7 @@ export default function App() {
   }
 
   return (
-    <div className="bg-gray-100">
+    <div>
       <Navbar />
 
       {/* Header Card */}
