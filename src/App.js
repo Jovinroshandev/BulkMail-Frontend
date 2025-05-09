@@ -85,7 +85,7 @@ export default function App() {
         <p className="font-medium text-gray-500 mt-2">Content</p>
         <textarea onChange={handleContent} className="border-[2px] border-gray-400 w-[100%] rounded-lg"></textarea>
         <div className="flex justify-center items-center mt-4">
-          <button onClick={handleSubmit} className="bg-red-500 text-white rounded-lg px-8 py-2 font-medium">{status?(<> sending.. <i className='fa-solid fa-spinner fa-spin-pulse'></i></>):("send")}</button>
+          <button onClick={handleSubmit} className="bg-red-500 text-white rounded-lg px-8 py-2 font-medium">{status?(<> Sending <i className='fa-solid fa-spinner fa-spin-pulse'></i></>):("Send")}</button>
         </div>
       </div>
     </div>
